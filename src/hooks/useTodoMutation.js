@@ -16,7 +16,7 @@ export const useTodoMutation = () => {
           todo.id === id
             ? {
                 ...todo,
-                isLiked: !currentLiked,
+                liked: !currentLiked,
               }
             : todo
         );
